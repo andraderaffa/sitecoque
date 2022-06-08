@@ -1,0 +1,39 @@
+.main-header{
+    padding: 20px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.logo-nav{
+    width: 30%;
+}
+
+.main-header__menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.main-header__menu a{
+    color: var(--grey-color);
+    font-family: var(--font-primary);
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover{
+    color: var(--footer-color);
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}

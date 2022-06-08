@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --grey-color: #676767;
+    --grey-dark-color: #464545;
+    --footer-color: #90c16a;
+    --font-primary: 'Roboto', sans-serif;
+    --font-secundary: 'Calistoga', cursive;
+}

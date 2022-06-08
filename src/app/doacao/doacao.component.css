@@ -1,0 +1,138 @@
+.promova-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-promova{
+    margin-left: 10rem;
+}
+
+.promova-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-family: var(--font-primary);
+    color: var(--footer-color);
+}
+
+.promova-title{
+    font-size: 2.5rem;
+}
+
+#promova-content{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+#promova-conta{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.promova-info-pix{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pix-container{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+#pix-title{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.voluntario-container{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--footer-color);
+    color: #fff;
+    font-family: var(--font-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+}
+
+.voluntario-container h2{
+    font-size: 3rem;
+}
+
+.voluntario-container p{
+    width: 60%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.voluntario-container a{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.voluntario-container a:hover{
+    opacity: .8;
+    font-size: 1.3rem;
+}
+
+
+.doe-livros-container{
+    background-image: url("/assets/img-livros.jpg");
+    background-color: var(--grey-color);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    color: #fff;
+    row-gap: 2rem;
+    font-size: 1.3rem;
+    z-index: -100;
+}
+
+.doe-livros-content{
+    width: 70%;
+    height: 70vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--footer-color);
+    align-items: center;
+    text-align: center;
+}
+
+.doe-livros-title{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+.doe-livros-title h2{
+    padding-bottom: 1rem;
+}
+
+.atento-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.atento-title h2{
+    padding: 1rem;
+}

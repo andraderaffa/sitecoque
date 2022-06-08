@@ -1,0 +1,96 @@
+.container-banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0.8;
+    background-color: grey;
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 15s;
+}
+
+@keyframes zoom{
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.banner-text{
+    position: absolute;
+    z-index: 1;
+    font-family: var(--font-primary);
+    font-weight: bolder;
+    color: #fff;
+    left: 14rem;
+    padding: 2rem;
+}
+.numeros{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numeros-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.numeros-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 9rem;
+}
+
+.numeros-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: .5rem;
+    font-size: 2rem;
+    font-family: var(--font-primary);
+    color: #fff;
+    background-color: var(--grey-color);
+    width: 18rem;
+    height: 18rem;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .2);
+}
+
+.numeros-info i{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.numeros-info p{
+    font-size: .8rem;
+}
+
+.numeros h1{
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    color: var(--grey-color);
+    font-weight: lighter;
+    padding-top: 2rem;
+}

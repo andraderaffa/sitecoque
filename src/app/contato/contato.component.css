@@ -1,0 +1,78 @@
+.contact__title{
+    font-size: 2rem;
+    color: var(--footer-color);
+    font-weight: 700;
+    padding: 8px 0;
+    font-family: var(--font-primary);
+    text-align: center;
+}
+
+.contact-form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 2rem;
+    min-width: 300px;
+    font-family: var(--font-primary);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form input{
+    width: 30%;
+    padding: 1rem;
+}
+
+.contact-form textarea{
+    width: 30%;
+    padding: 1rem;
+}
+
+.contact-form button{
+    width: 15%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--footer-color);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.contact-form button:hover{
+    background-color: #679148;
+}
+
+address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.container-horario-loc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-horario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-primary);
+    color: var(--grey-color);
+}
+
+.container-horario small{
+    font-size: 1rem;
+}
